@@ -13,7 +13,7 @@
           <br>
           <div id="header2">
           <v-app-bar class="orange white--text" height="310">  <v-toolbar-title ><p class="a"> Sign-up for Membership Here</p> <br/> 
-          <p class="b">Please complete the form below to join Coast People's Forum.<br> Once you register, your membership will be approved by the <br> admin and you will be able to access our Members Portal</p>
+          <p class="b" >Please complete the form below to join Coast People's Forum.<br> Once you register, your membership will be approved by the <br> admin and you will be able to access our Members Portal</p>
           </v-toolbar-title>      
          </v-app-bar></div>
          </div>
