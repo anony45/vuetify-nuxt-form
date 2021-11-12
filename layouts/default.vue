@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
   <div id="header1">
-  <v-system-bar class="orange white--text" app>COAST PEOPLE'S FORUM</v-system-bar><br>
+  <v-system-bar class="orange white--text" app >COAST PEOPLE'S FORUM</v-system-bar><br>
     <br>
      <v-app-bar app color="white" height="100">
        <v-img class="mx-2" src="logo.png" max-height="100" max-width="150"></v-img>
