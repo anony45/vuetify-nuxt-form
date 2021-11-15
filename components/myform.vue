@@ -94,8 +94,9 @@ import axios from 'axios'
 </script>
 <style >
 #form{
-    margin-top: auto;
+    margin-top:30px;
     margin-left: auto;
+    margin-right:auto;
 }
 
 </style>

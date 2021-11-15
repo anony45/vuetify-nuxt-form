@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
   <div id="header1">
   <v-system-bar class="orange white--text" app >COAST PEOPLE'S FORUM</v-system-bar><br>
     <br>
@@ -9,13 +9,15 @@
           <v-btn text outlined color="orange">LOGIN</v-btn>
 
        </v-app-bar>
-
-          <br>
           <div id="header2">
-          <v-app-bar class="orange white--text" height="310">  <v-toolbar-title ><p class="a"> Sign-up for Membership Here</p> <br/> 
-          <p class="b" >Please complete the form below to join Coast People's Forum.<br> Once you register, your membership will be approved by the <br> admin and you will be able to access our Members Portal</p>
-          </v-toolbar-title>      
-         </v-app-bar></div>
+          <v-card height="350" class="orange white--text" sm="8">
+          <v-card-text class="orange white--text font-weight-light">
+          <p class="a">Sign-up for Membership Here</p>
+          <p class="b">Please complete the form below to join Coast People's Forum. Once you register, your membership will be approved by the admin and you will be able to access our Members Portal</p>
+          </v-card-text>
+          
+          </v-card>
+     </div>
          </div>
          <myform></myform>
          <myfooter></myfooter>
@@ -33,29 +35,33 @@ export default {
 </script>
 <style>
 p{
-  width:600px;
+ 
   word-break: keep-all;
-  margin-left :300px;
+  margin-left :350px;
   padding-right:200px;
-  text-align:center;
-  font-weight:normal;
+  font-weight:lighter;
+  font-family:calibri light;
+  width:650px;
+  padding: 10px;
+  font:100;
+
+
 
 
 }
 p.a{
-  text-align:center;
   font-size:35px;
   word-break: keep-all;
-  font-family:sans-serif;
-  margin-top:75px;
+  margin-top:100px;
 
   
 }
 p.b{
-font-family:sans-serif;
-font-size:21px;
-margin-top:-30px;
-font-weight:normal;
+font-size:23px;
+font-weight:lighter;
+padding-left:auto;
+word-spacing:4px;
+line-height:30px;
 }
 
 </style>
