@@ -1,5 +1,5 @@
 <template>
-    <v-footer app dark height="40">
+    <v-footer dark height="40">
       <span>&copy; {{ new Date().getFullYear() }}  Coast People's Forum</span>
       <v-spacer></v-spacer>
       <span>Powered by Alumnipad </span>
